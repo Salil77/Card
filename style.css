@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+    text-align: center;
+    font-family: Outfit;
+}
+@font-face {
+ font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+  }
+.card{
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    position:absolute;
+    margin: auto;
+    inset: 0;
+    border-radius: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.pic{
+    width: 100%;
+    border-radius: 16px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    text-align: justify;
+    font-weight: 600;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+}
+.eth{
+position:relative;
+right: 36%;
+}
+.eth img{
+    position: relative;
+    bottom: -2px;
+}
+.clock{
+position: relative;
+right: -36%;
+bottom: 4vh;
+color:  hsl(215, 51%, 70%); 
+}
+.clock img{
+    position: relative;
+    width: 20px;
+    bottom: -4px;
+    right: 5px;
+}
+
+span{
+    color:  hsl(0, 0%, 100%);
+}
+hr{
+    border-color: hsl(215, 32%, 27%);
+}
+b{
+    color: hsl(178, 100%, 50%);
+    font-family: sans-serif;
+}
+.avatar{
+    width: 35px;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+}
+.av{
+    position: relative;
+    left: 14px;
+    bottom: -3px;
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+    background-color: white;
+}
+.end{
+    position: absolute;
+    font-family: outfit;
+    left: 91px;
+    bottom: 16px;
+    font-weight: 300;
+}
